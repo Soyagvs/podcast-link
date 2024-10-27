@@ -1,0 +1,16 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Description from "../components/Description.astro";
+import Tech from "../components/Tech.astro";
+import Contact from "../components/Contact.astro";
+---
+
+<Layout title="Welcome to about">
+  <main>
+    <Description />
+    <div class="flex justify-center items-center gap-[50px] max-sm:flex-col max-sm:gap-5">
+      <Tech />
+      <Contact />
+    </div>
+  </main>
+</Layout>
